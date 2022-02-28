@@ -1,5 +1,7 @@
-a = 777
-print(a)
+array = [i for i in range(10) if i % 2 == 1]
 
-b = 333
-print(b)
+print(array)
+
+array = [i * i for i in range(10)]
+
+print(array)
